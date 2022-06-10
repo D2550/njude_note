@@ -13,8 +13,8 @@ if __name__ == "__main__":
     }
     print('[*] 南大自动刷课程序')
     # 用户登录部分，系统采用401基础认证,后续可以改为通过input输入
-    stu_user_name = '22030111344'
-    stu_user_password = 'kyjae6mc'
+    stu_user_name = ''
+    stu_user_password = ''
     Authorization = base64.b64encode(f'{stu_user_name}:{stu_user_password}'.encode()).decode('ascii')
     requests_header = {
         'Authorization': f'Basic {Authorization}'
