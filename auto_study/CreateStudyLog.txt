@@ -1,0 +1,1 @@
+{"operationName":"CreateStudyLog","variables":{"input":{"app":"学习平台-WEB","courseId":foo,"action":"PLAY","resourceId":bar,"value":1,"currentTime":59.958751}},"query":"mutation CreateStudyLog($input: StudyActionLogInputObject) {\n  createStudyLog(input: $input) {\n    studyLog {\n      id\n      __typename\n    }\n    __typename\n  }\n}"}

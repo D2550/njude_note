@@ -1,0 +1,1 @@
+{"operationName":"SimpleResourceTree","variables":{"courseId":foo},"query":"query SimpleResourceTree($courseId: BigInt!) {\n  tree(input: {courseId: $courseId}) {\n    treeList {\n      parentId\n      id\n      name\n      isGroup\n      childrenAmount\n      progress\n      resourceType\n      level\n      resourceStudyStatus\n      __typename\n    }\n    __typename\n  }\n}"}
